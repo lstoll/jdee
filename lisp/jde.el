@@ -32,7 +32,7 @@
 (defvar browse-url-new-window-p)
 
 ;;;###autoload
-(defconst jde-version "@@{project.version}@@"
+(defconst jde-version "2.4.1"
   "JDE version number.")
 
 (defconst jde-revision "$Revision$"
@@ -69,7 +69,7 @@
 (require 'jde-util)
 (require 'jde-custom)
 (require 'jde-help)
-(require 'semantic-load)
+;;(require 'semantic-load)
 (require 'easymenu)
 (require 'cl)
 (require 'font-lock)

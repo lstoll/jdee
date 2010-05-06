@@ -23,10 +23,10 @@
 ;; Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 ;; Boston, MA 02111-1307, USA.
 
-(require 'semantic-java)
+(require 'semantic/java)
 (require 'jde-parse)
 (eval-when-compile
-  (require 'senator)
+  (require 'semantic/senator)
   (require 'jde-which-method))
 
 

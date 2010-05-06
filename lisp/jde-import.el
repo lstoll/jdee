@@ -38,9 +38,9 @@
 ;;; Code:
 
 (require 'efc)
-(require 'semantic-fw)
-(require 'semantic-find)
-(require 'semantic-util)
+(require 'semantic/fw)
+(require 'semantic/find)
+(require 'semantic/util)
 (jde-require 'sregex)
 
 ;;;;

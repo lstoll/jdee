@@ -35,7 +35,7 @@
 ;;; Code:
 
 (require 'tempo)
-(require 'semantic-java)
+(require 'semantic/java)
 (require 'regexp-opt)
 
 (eval-when-compile
